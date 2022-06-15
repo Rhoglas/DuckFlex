@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta dados -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon dee pato no titulo da pagina -->
+
+    <link rel="shortcut icon" href="./icon/duck.png" type="image/x-icon" />
+
+    <!-- Link dos estilos -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link do script -->
+
+    <script defer src="script.js"></script>
+
+    <!-- Titulo da pagina -->
+
+    <title>DuckFlex</title>
+  </head>
+  <body>
+    <!-- Cabecalho da pagina -->
+
+    <header id="header">
+      <div id="title1">Flex</div>
+      <img id="title3" src="./icon/duck.png" alt="" />
+      <div id="title2">Box</div>
+    </header>
+
+    <!-- Estrutura do jogo -->
+
+    <main id="main">
+      <!-- Container Pai -->
+
+      <div id="wrap">
+        <!-- Container Filho -->
+
+        <section class="tela" id="tela1">
+          <!-- Personagem -->
+
+          <div class="run run1"></div>
+          <div class="run run1"></div>
+        </section>
+
+        <!-- Container Filho -->
+
+        <section class="tela" id="tela2">
+          <!-- Personagens -->
+
+          <img
+            class="run"
+            id="run2"
+            src="./img/patinho.gif"
+            alt="patinho que vai correr pela tela"
+          />
+          <img
+            class="run"
+            id="run2"
+            src="./img/patinho.gif"
+            alt="patinho que vai correr pela tela"
+          />
+        </section>
+      </div>
+
+      <!-- Entrada de configuracoes do jogo -->
+      <div class="text">
+        <textarea
+          placeholder="Digite aqui ..."
+          name="configuracao"
+          id="config"
+          cols="15"
+          rows="5"
+        ></textarea>
+        <button id="btn">Conferir</button>
+      </div>
+    </main>
+  </body>
+</html>
